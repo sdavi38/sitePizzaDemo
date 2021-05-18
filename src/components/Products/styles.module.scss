@@ -32,6 +32,7 @@
   margin: 0 2rem;
   line-height: 2;
   width: 300px;
+ 
 
 }
 
@@ -41,6 +42,7 @@
   justify-content: center;
   padding: 2rem;
   text-align: center;
+  justify-content: space-between;
   
   
 
@@ -65,6 +67,10 @@
     color: var(--white);
     transition: 0.2 ease-out;
     border-radius: 8px;
+     align-items: center;
+    display: flex;
+    
+    justify-content:space-between;
 
     &:hover{
       background: #ffc500;

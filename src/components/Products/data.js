@@ -1,11 +1,11 @@
 export const productData=[
   {
-  img:'/images/product-1.jpg',
+  img:'/images/meio-a-meio.jpeg',
   alt:'Pizza',
-  name:'Supreme Pizza',
-  desc:'Marinara sauce, basil, italian, roma, tomatoes, olives',
-  price:'R$39,99',
-  button: 'Adicione'
+  name:'Meio a Meio',
+  desc:'Costumize a sua pizza com os sabores de sua preferencia, escolha duas opções, bordas , acrescimo de recheio ...',
+ 
+  button: 'Costumizar'
   },
   {
 
@@ -42,7 +42,7 @@ export const productData=[
 
 export const productDataTwo=[
   {
-  img:'/images/pizza-3.jpg',
+  img:'/images/mussarela.jpg',
   alt:'Pizza',
   name:'Supreme Pizza',
   desc:'Marinara sauce, basil, italian, roma, tomatoes, olives',

@@ -8,9 +8,7 @@ export default function NavBar() {
       
         <div className={styles.icon}>
             <div className={styles.socialLink}>
-              <Link href="/" target="_blank">
-                <a><FaFacebook/></a>
-              </Link>             
+                        
             </div>
             <div className={styles.socialLink}>
               <Link href="/" target="_blank">

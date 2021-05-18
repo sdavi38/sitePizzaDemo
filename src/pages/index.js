@@ -3,6 +3,7 @@ import Feature from '../components/Feature'
 import Hero from '../components/Hero'
 import Products from '../components/Products'
 import Footer from '../components/Footer'
+import styles from '../styles/home.module.scss'
 
 
 import {productData} from '../components/Products/data'
@@ -10,7 +11,7 @@ import {productDataTwo} from '../components/Products/data'
 
 export default function Home() {
   return (
-      <div>
+    <div className={styles.homepage}>
       <Head>
         <title>Home | Pizzaria </title>
     
@@ -22,7 +23,8 @@ export default function Home() {
       <Products  heading ="Promoções do dia" data={productData}/>
       <Feature/>
       <Products  heading ="Nossos sabores tradicionais " data={productDataTwo}/>
-      <Footer/>
+      <Footer/>  
+      
     </div>
   )
 }

@@ -1,5 +1,6 @@
 
 import styles from './styles.module.scss'
+import {FaShoppingCart} from 'react-icons/fa'
 
 export default function Products({heading, data}){
   return(
@@ -25,7 +26,11 @@ export default function Products({heading, data}){
               <p>{product.desc}</p>
               <h3>{product.price}</h3>
               
-              <button>{product.button}</button>
+              <button>
+                {product.button}
+                <FaShoppingCart/>  
+              
+              </button>
             </div>
 
 
