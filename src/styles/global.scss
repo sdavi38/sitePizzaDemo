@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+
+  --gray-50: #f7f8fa;
+  --gray-100: #e6e8eb;
+  --gray-200: #afb2b1;
+  --gray-500: #808080;
+  --gray-800: #494d4b;
+
+  --green-500: #04d361;
+  --black-500: #150f0f;
+
+  --yelow-500: #e9ba23;
+  --yelow-100: #ffc500;
+
+  --red-500: #e31837;
+
+  --purple-300: #9f75ff;
+  --purple-400: #9164fa;
+  --purple-500: #8257e5;
+  --purple-800: #6f48c9;
+}
+
+
+
+
+body,
+input,
+textarea,
+button {
+  font: 500 1rem Kanit, sans-serif;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-weight: 600;
+  font-family: Kanit, sans-serif;
+  
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+a{
+text-decoration: none;
+
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}

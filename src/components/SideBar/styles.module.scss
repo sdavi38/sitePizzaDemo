@@ -1,0 +1,43 @@
+
+
+.container{
+  position: fixed;
+  z-index: 999;
+  width: 350px;
+  height: 100%;
+  background: var(--yelow-500);
+  display: grid;
+  align-items: center;
+  top: 0;
+  transition: 0.3s ease-in-out;
+  right: -1000px;
+
+    @media(max-width: 400px){
+      width: 100%;
+    }
+  }
+
+  .icon{
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    color: #000;
+    background: transparent;
+    border: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .menu{
+    display: grid;
+    grid-template-columns: ifr;
+    grid-template-rows: repeat(3, 80px);
+    text-align: center;
+
+    @media(max-width: 480px){
+      grid-template-rows: repeat(3, 60px);
+    }
+
+
+  }
